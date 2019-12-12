@@ -1,6 +1,5 @@
-<?php
-
-$lang['first'] = 'First';
-$lang['last'] = 'Last';
-$lang['next'] = 'Next';
+<?php 
+$lang['first'] = 'प्रथम';
+$lang['last'] = 'अंतिम';
+$lang['next'] = 'आगामी';
 $lang['previous'] = 'Previous';

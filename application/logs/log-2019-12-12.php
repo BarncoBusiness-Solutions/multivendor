@@ -71,3 +71,54 @@ ERROR - 2019-12-12 10:49:10 --> Severity: Warning --> scandir(application\langua
 ERROR - 2019-12-12 10:49:10 --> Severity: Warning --> scandir(application\language\hindi\): failed to open dir: No error C:\xampp\htdocs\shop\application\helpers\rreaddir_helper.php 9
 ERROR - 2019-12-12 10:49:10 --> Severity: Warning --> scandir(): (errno 0): No error C:\xampp\htdocs\shop\application\helpers\rreaddir_helper.php 9
 ERROR - 2019-12-12 10:49:10 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\shop\application\helpers\rreaddir_helper.php 10
+ERROR - 2019-12-12 11:24:53 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:24:54 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:24:54 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:30:01 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:30:01 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:30:01 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:32:28 --> Severity: Notice --> Undefined index: folder C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 93
+ERROR - 2019-12-12 11:32:28 --> Severity: Notice --> Undefined index: others C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 11:32:28 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 11:32:35 --> Image Upload Error: <p>The uploaded file exceeds the maximum allowed size in your PHP configuration file.</p>
+ERROR - 2019-12-12 11:33:27 --> Severity: Notice --> Undefined index: folder C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 93
+ERROR - 2019-12-12 11:33:27 --> Severity: Notice --> Undefined index: others C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 11:33:27 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 11:33:31 --> Image Upload Error: <p>You did not select a file to upload.</p>
+ERROR - 2019-12-12 11:35:10 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ERROR - 2019-12-12 11:35:14 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ERROR - 2019-12-12 11:47:40 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:47:40 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 11:47:40 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:05:16 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:05:16 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:05:16 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:06:29 --> 404 Page Not Found: 
+ERROR - 2019-12-12 12:06:54 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:06:54 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:21 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:21 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:21 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:21 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:21 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:24 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:07:25 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:08:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:08:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:08:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:08:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:08:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:08:39 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:11:16 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ERROR - 2019-12-12 12:11:20 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ERROR - 2019-12-12 12:13:15 --> Severity: Notice --> Undefined index: folder C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 93
+ERROR - 2019-12-12 12:13:15 --> Severity: Notice --> Undefined index: others C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 12:13:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 12:13:33 --> Severity: Notice --> Undefined index: folder C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 93
+ERROR - 2019-12-12 12:13:33 --> Severity: Notice --> Undefined index: others C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 12:13:33 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\shop\application\modules\admin\controllers\ecommerce\Publish.php 101
+ERROR - 2019-12-12 12:13:57 --> Image Upload Error: <p>You did not select a file to upload.</p>
+ERROR - 2019-12-12 12:15:49 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ERROR - 2019-12-12 12:15:52 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ERROR - 2019-12-12 12:16:38 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:16:54 --> 404 Page Not Found: /index

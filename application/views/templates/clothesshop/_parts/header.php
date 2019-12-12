@@ -80,7 +80,7 @@
                         <div class="row logo-and-search">
                             <div class="col-sm-5 logo-col">
                                 <a href="<?= base_url() ?>">
-                                    <img src="<?= base_url('attachments/site_logo/' . $sitelogo) ?>" class="site-logo" alt="<?= $_SERVER['HTTP_HOST'] ?>">
+                                    <img src="<?= base_url('attachments/site_logo/logo-white.png') ?>" class="site-logo" alt="<?= $_SERVER['HTTP_HOST'] ?>">
                                 </a>
                             </div>
                             <div class="col-sm-7">

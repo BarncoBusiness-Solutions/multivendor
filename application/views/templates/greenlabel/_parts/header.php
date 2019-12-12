@@ -51,7 +51,7 @@
                 <div class="col-md-4 col-xs-12">
                     <div class="logo">
                         <a href="<?= LANG_URL ?>">
-                            <img src="<?= base_url('attachments/site_logo/' . $sitelogo) ?>" alt="<?= $title ?>">
+                            <img src="<?= base_url('attachments/site_logo/logo-white.png') ?>" alt="<?= $title ?>">
                         </a>
                     </div>
                 </div>

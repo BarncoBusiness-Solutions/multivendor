@@ -122,3 +122,17 @@ ERROR - 2019-12-12 12:15:49 --> Mailer Error: SMTP connect() failed. https://git
 ERROR - 2019-12-12 12:15:52 --> Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
 ERROR - 2019-12-12 12:16:38 --> 404 Page Not Found: /index
 ERROR - 2019-12-12 12:16:54 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:30:44 --> 404 Page Not Found: /index
+ERROR - 2019-12-12 12:31:44 --> Could not find the language line "vendor_home_page"
+ERROR - 2019-12-12 12:31:54 --> Could not find the language line "vendor_home_page"
+ERROR - 2019-12-12 12:32:22 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\shop\system\libraries\Email.php 1894
+ERROR - 2019-12-12 12:45:25 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\shop\application\controllers\Contacts.php 58
+ERROR - 2019-12-12 12:45:25 --> Severity: Notice --> Undefined variable: email C:\xampp\htdocs\shop\application\controllers\Contacts.php 59
+ERROR - 2019-12-12 12:45:25 --> Severity: Notice --> Undefined variable: subject C:\xampp\htdocs\shop\application\controllers\Contacts.php 60
+ERROR - 2019-12-12 12:45:25 --> Severity: Notice --> Undefined variable: message C:\xampp\htdocs\shop\application\controllers\Contacts.php 61
+ERROR - 2019-12-12 12:45:27 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\shop\system\libraries\Email.php 1894
+ERROR - 2019-12-12 12:48:20 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\shop\application\controllers\Contacts.php 58
+ERROR - 2019-12-12 12:48:20 --> Severity: Notice --> Undefined variable: email C:\xampp\htdocs\shop\application\controllers\Contacts.php 59
+ERROR - 2019-12-12 12:48:20 --> Severity: Notice --> Undefined variable: subject C:\xampp\htdocs\shop\application\controllers\Contacts.php 60
+ERROR - 2019-12-12 12:48:20 --> Severity: Notice --> Undefined variable: message C:\xampp\htdocs\shop\application\controllers\Contacts.php 61
+ERROR - 2019-12-12 12:48:22 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\shop\system\libraries\Email.php 1894

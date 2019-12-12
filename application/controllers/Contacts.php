@@ -18,7 +18,7 @@ class Contacts extends MY_Controller
         if (isset($_POST['message'])) {
             $result = $this->sendEmail();
             if ($result) {
-                $this->session->set_flashdata('resultSend', 'Email is sened!');
+                $this->session->set_flashdata('resultSend', 'Email is sent!');
             } else {
                 $this->session->set_flashdata('resultSend', 'Email send error!');
             }
@@ -35,15 +35,46 @@ class Contacts extends MY_Controller
 
     private function sendEmail()
     {
+
+        $config = array(
+                 'protocol'  => 'ssmtp',
+                'smtp_host' => '103.212.121.55',
+                'smtp_port' => 587,
+                'smtp_crypto'=>'tls',
+                'smtp_user' => 'test@flywithflyby.com',
+                'smtp_pass' => 'test@007',
+                'mailtype'  => 'html',
+                'charset'   => 'utf-8'
+            );
+
+        $message =  "
+                        <html>
+                        <head>
+                            <title>Verification Code</title>
+                        </head>
+                        <body>
+                            <h2>Hello Admin !!</h2>
+                            <p>Your Account:</p>
+                            <p>Email: ".$name."</p>
+                            <p>Email: ".$email."</p>
+                            <p>Email: ".$subject."</p>
+                            <p>Email: ".$message."</p>
+                            
+                        </body>
+                        </html>
+                        ";
+
+
         $myEmail = $this->Home_admin_model->getValueStore('contactsEmailTo');
         if (filter_var($myEmail, FILTER_VALIDATE_EMAIL) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            $this->load->library('email');
+            $this->load->library('email', $config);
 
-            $this->email->from($_POST['email'], $_POST['name']);
-            $this->email->to($myEmail);
+            $this->email->from($config['smtp_user']);
+            //$this->email->to($myEmail);
+            $this->email->to('shuklaji88as@gmail.com');
 
             $this->email->subject($_POST['subject']);
-            $this->email->message($_POST['message']);
+            $this->email->message($message);
 
             $this->email->send();
             return true;

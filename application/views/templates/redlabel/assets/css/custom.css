@@ -1,8 +1,8 @@
 html, body { height : 100%; }
-body { color : #424449; font-family : arial; padding-top : 0; }
+body { color : #000; font-family : arial; padding-top : 0; }
 #wrapper { min-height : 100%; position : relative; }
 #content { padding-bottom : 400px; }
-#languages-bar { background : #444444; background : linear-gradient(to bottom, #444444 0%,#333333 100%); background : -moz-linear-gradient(top, #444444 0%, #333333 100%); background : -webkit-linear-gradient(top, #444444 0%,#333333 100%); filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#333333',GradientType=0 ); margin-bottom : 15px; padding : 8px 0; }
+#languages-bar { background : #444444; background : linear-gradient(to bottom, #444444 0%,#333333 100%); background : -moz-linear-gradient(top, #444444 0%, #333333 100%); background : -webkit-linear-gradient(top, #444444 0%,#333333 100%); filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#333333',GradientType=0 ); margin-bottom : 0px; padding : 8px 0; }
 #languages-bar .phone { color : #f1f1f1; font-weight : bold; }
 #languages-bar .phone span { margin-right : 5px; }
 #languages-bar ul { margin : 0; margin-left : -10px; padding : 0; }
@@ -10,7 +10,7 @@ body { color : #424449; font-family : arial; padding-top : 0; }
 #languages-bar ul li a { color : #efefef; font-size : 13px; }
 #languages-bar ul li img { height : 11px; margin-right : 2px; margin-top : -2px; width : 16px; }
 #languages-bar ul li.last-item { border-right : none; }
-#top-part { margin-bottom : 10px; padding : 10px 0; }
+#top-part { margin-bottom : 0px; padding : 10px 0; }
 #top-part #adv-search .dropdown.dropdown-lg .dropdown-menu { margin-top: -1px; padding: 14px 20px; width: 515px; background: #ffffff;background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );}
 #top-part #adv-search .input-group-btn .btn-group { display : flex !important; }
 #top-part #adv-search .btn-group .btn { border-radius : 0; }
@@ -210,10 +210,10 @@ footer .footer-icon li { display : block; height : 40px; width : 100%; }
 .footer { background : #EDEFF1; border-bottom : 1px solid #CCCCCC; border-top : 1px solid #DDDDDD; height : auto; padding-bottom : 30px; position : relative; width : 100%; }
 .footer p { margin : 0; }
 .footer img { max-width : 100%; }
-.footer h3 { border-bottom : 1px solid #BAC1C8; color : #54697E; font-size : 18px; font-weight : 600; line-height : 27px; padding : 40px 0 10px; text-transform : uppercase; }
+.footer h3 { border-bottom : 1px solid #BAC1C8; color : #000000; font-size : 18px; font-weight : 600; line-height : 27px; padding : 40px 0 10px; text-transform : uppercase; }
 .footer ul { color : #7F8C8D; list-style-type : none; margin-left : 0; margin-top : 15px; padding-left : 0; }
 .footer ul li a { display : block; padding : 0 0 5px 0; }
-.footer a, .footer p { color : #78828D; }
+.footer a, .footer p { color : #ffffff; }
 .footer p , .footer ul { font-size : 13px; }
 .supportLi h4 { font-size : 20px; font-weight : lighter; line-height : normal; margin-bottom : 0 !important; padding-bottom : 0; }
 .newsletter-box input#appendedInputButton { background : #FFFFFF; clear : both; display : inline-block; float : left; height : 30px; width : 100%; }
@@ -225,8 +225,8 @@ footer .footer-icon li { display : block; height : 40px; width : 100%; }
 .social li a { color : #EDEFF1; }
 .social li:hover { background : #2c3e50; border : 2px solid #2c3e50; }
 .social li a i { color : #EDEFF1 !important; font-size : 16px; margin : 0 0 0 5px; }
-.footer-bottom { background : #E3E3E3; border-top : 1px solid #DDDDDD; padding-bottom : 10px; padding-top : 10px; }
-.footer-bottom p.pull-left { padding-top : 6px; }
+.footer-bottom { background : #000; border-top : 1px solid #DDDDDD; padding-bottom : 10px; padding-top : 10px; }
+.footer-bottom p.pull-left { padding-top : 6px;  color: #fff !important;}
 .payments { font-size : 1.5em; }
 .footer .footer-icon span i { border : 1px solid #a3a3a3; border-radius : 100%; height : 30px; line-height : 25px; margin-bottom : 5px; margin-right : 5px; text-align : center; width : 30px; }
 .f-cont-info { width : 70%; word-break : break-all; }
@@ -235,7 +235,7 @@ footer .footer-icon li { display : block; height : 40px; width : 100%; }
 #shopping-cart .go-shop, #checkout-page .go-shop {float:left;}
 #shopping-cart .go-checkout, #checkout-page .go-order {float:right;}
 #footer .f-col {height:250px;}
-#top-user-panel { font-size:12px; padding: 5px 0;background: #ffffff; background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );}
+#top-user-panel { font-size:12px; padding: 5px 0;background: #ffffff; background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);background: #000;}
 #top-user-panel form {float: right;}
 #top-user-panel form .form-control {border:1px solid #e1e1e1; border-radius: 3px; height: 32px; max-width: 150px;}
 #vendor-page .vendor-title { margin: 0; margin-bottom: 20px;}
@@ -312,4 +312,21 @@ footer .footer-icon li { display : block; height : 40px; width : 100%; }
     #checkout-page a.pull-right { float : left !important; margin-top : 10px; }
     #top-part #adv-search .dropdown.dropdown-lg .dropdown-menu {width:210px;}
     #shopping-cart .go-shop, #shopping-cart .go-checkout, #checkout-page .go-order, #checkout-page .go-shop {float:none; margin-bottom: 7px;}
+}
+
+.footer {
+    background: #b03131;
+    border-bottom: 1px solid #041321;
+    border-top: 1px solid #041321;
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+.pull-right {
+    color: #fff;
+}
+
+.checkbox {
+    color: #fff;
 }
